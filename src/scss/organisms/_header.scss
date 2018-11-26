@@ -1,0 +1,50 @@
+.top-bar {
+  background-color: #474747;
+  padding: 0.5em 0;
+}
+.top-bar a {
+  color: white;
+  margin-right: 1em;
+}
+
+.logo {
+  padding: 0.5em 0;
+}
+
+.top-bar .wrap {
+  padding: 0 1.25em;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.main-nav {
+  padding: 0 1.25em;
+}
+.main-nav {
+  background-clip: content-box;
+}
+
+@media (min-width: 48.6em) {
+  .top-bar .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+  .main-nav,
+  .logo {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .logo {
+    h1 {
+      font-size: 100px;
+      text-align: center;
+    }
+  }
+}
+
+@media all and (min-width: 62em) {
+  .main-header {
+    padding-bottom: 2em;
+  }
+}
